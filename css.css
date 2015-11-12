@@ -1,0 +1,33 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+div.menu {
+	background-color: linear-gradient(lightgrey, grey);
+	font-weight: bold;
+}
+
+div.main {
+	background-color: rgba(0,0,0,0.1);
+}
+
+ul {
+	font-size: 30px;
+	color: blue;
+}
+
+li {
+	text-transform: uppercase;
+}
+
+li#last {
+	border-right: none;
+}
+.done-true {
+  text-decoration: line-through;
+  color: grey;
+}
